@@ -23,3 +23,9 @@ Prompt: Me ayudas a crear una lista de eventos usando map y key?
 Resultado: Me ayudo a separar el listado en un componente ListaEventos.
 Utilidad: util, porque ahora App.jsx queda mas ordenado y la lista se genera desde el array de eventos.
 Modifique: use el id de cada evento como key para cumplir con la practica.
+
+Etapa 4
+Prompt: Me ayudas a agregar un filtro por tipo y una busqueda por nombre usando useState?
+Resultado: Me ayudo a crear el selector de tipo y el campo de busqueda.
+Utilidad: util, porque pude aplicar ambos filtros al mismo tiempo.
+Modifique: limite el largo del texto ingresado
