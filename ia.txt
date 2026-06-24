@@ -1,0 +1,19 @@
+Parte A 
+Prompt: Me ayudas a ordenar las ideas para identificar que partes de React se usan en una agenda cultural?
+Resultado: Me ayudo a entender donde usar componentes, props, estado, listas y condicionales dentro de la app.
+Utilidad: util, porque me sirvio como guia para completar el analisis.
+Modifique: escribi las respuestas con mis propias palabras.
+
+Etapa 1
+Prompt: Me ayudas a crear la base de un proyecto React con Vite y cargar datos locales desde un archivo eventos.js?
+Resultado: Me ayudo a crear el proyecto y comprobar que los datos cargaran correctamente.
+Utilidad: util, porque pude avanzar con la estructura inicial.
+Modifique: agregue manualmente el archivo eventos.js y ajuste App.jsx.
+
+
+Etapa 2 
+Prompt: Me ayudas a crear una tarjeta de evento en React usando props y validacion?
+Resultado: Me ayudo a crear el componente EventoCard para mostrar nombre, lugar, duracion, tipo, descripcion y fechas.
+Utilidad: util, porque la tarjeta quedo ordenada y reutilizable.
+Modifique: ajuste los estilos por tipo y use PropTypes para validar las props.
+
