@@ -7,6 +7,7 @@ function EventoCard({
   tipo = "Concierto",
   descripcion = "Sin descripcion disponible",
   fechas = [],
+  esGratuito = false,
 }) {
   const estilosTipo = {
     Concierto: {
@@ -28,7 +29,7 @@ function EventoCard({
   return (
     <article
       style={{
-        border: "1px solid #ccc",
+        border: esGratuito ? "3px solid #1c6b1c" : "1px solid #ccc",
         borderRadius: "12px",
         padding: "16px",
         margin: "12px",
@@ -37,6 +38,22 @@ function EventoCard({
         boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
       }}
     >
+      {esGratuito && (
+        <span
+          style={{
+            backgroundColor: "#1c6b1c",
+            color: "white",
+            padding: "6px 10px",
+            borderRadius: "8px",
+            fontWeight: "bold",
+            display: "inline-block",
+            marginBottom: "10px",
+          }}
+        >
+          GRATIS
+        </span>
+      )}
+
       <h2>{nombre}</h2>
 
       <span
@@ -83,6 +100,7 @@ EventoCard.propTypes = {
   tipo: PropTypes.oneOf(["Concierto", "Teatro", "Exposicion"]),
   descripcion: PropTypes.string,
   fechas: PropTypes.arrayOf(PropTypes.string),
+  esGratuito: PropTypes.bool,
 };
 
 export default EventoCard;

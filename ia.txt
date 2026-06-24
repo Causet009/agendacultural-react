@@ -29,3 +29,10 @@ Prompt: Me ayudas a agregar un filtro por tipo y una busqueda por nombre usando 
 Resultado: Me ayudo a crear el selector de tipo y el campo de busqueda.
 Utilidad: util, porque pude aplicar ambos filtros al mismo tiempo.
 Modifique: limite el largo del texto ingresado
+
+
+Etapa 5
+Prompt: Me ayudas a destacar los eventos gratuitos y agregar un contador?
+Resultado: Me ayudo a mostrar una etiqueta GRATIS y un borde distinto en los eventos gratuitos.
+Utilidad: util, porque se entiende mejor que eventos no tienen costo.
+Modifique: pase la prop esGratuito desde ListaEventos hacia EventoCard y agregue el contador en App.jsx.

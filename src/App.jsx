@@ -15,6 +15,8 @@ function App() {
 
   const busquedaNormalizada = busqueda.trim().toLowerCase();
 
+  const eventosGratuitos = eventos.filter((evento) => evento.esGratuito).length;
+
   const eventosFiltrados = eventos.filter((evento) => {
     const coincideTipo =
       filtroTipo === "Todos" || evento.tipo === filtroTipo;
@@ -30,6 +32,7 @@ function App() {
     <div>
       <h1>AgendaCultural</h1>
       <p>Total de eventos cargados: {eventos.length}</p>
+      <p>Eventos gratuitos: {eventosGratuitos}</p>
 
       <div style={{ margin: "20px 0" }}>
         <label htmlFor="busqueda">
