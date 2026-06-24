@@ -1,0 +1,14 @@
+export const eventos = [
+    { id: 1, nombre: "Concierto de Primavera", lugar: "Teatro Municipal", duracion: 90, tipo: "Concierto", descripcion: "La orquesta local interpreta piezas clasicas y populares.", fechas: ["2026-09-21", "2026-09-22"], esGratuito: true },
+    { id: 2, nombre: "Hamlet", lugar: "Sala Negra", duracion: 120, tipo: "Teatro", descripcion: "Version contemporanea del clasico de Shakespeare.", fechas: ["2026-09-24"], esGratuito: false },
+    { id: 3, nombre: "Pintura del Sur", lugar: "Galeria Centro", duracion: 0, tipo: "Exposicion", descripcion: "Muestra de artistas regionales contemporaneos.", fechas: ["2026-09-20", "2026-09-27"], esGratuito: true },
+    { id: 4, nombre: "Noche de Jazz", lugar: "Cafe Cultural", duracion: 75, tipo: "Concierto", descripcion: "Cuarteto de jazz con estandares y composiciones propias.", fechas: ["2026-09-25"], esGratuito: false },
+    { id: 5, nombre: "La Casa de Bernarda Alba", lugar: "Teatro Municipal", duracion: 110, tipo: "Teatro", descripcion: "Drama de Federico Garcia Lorca con elenco local.", fechas: ["2026-09-26", "2026-09-28"], esGratuito: false },
+    { id: 6, nombre: "Fotografia Urbana", lugar: "Centro Civico", duracion: 0, tipo: "Exposicion", descripcion: "Retratos de la ciudad a lo largo de cien anos.", fechas: ["2026-09-19", "2026-10-03"], esGratuito: true },
+    { id: 7, nombre: "Rock en la Plaza", lugar: "Plaza de Armas", duracion: 150, tipo: "Concierto", descripcion: "Bandas emergentes en un escenario al aire libre.", fechas: ["2026-09-29"], esGratuito: true },
+    { id: 8, nombre: "El Avaro", lugar: "Sala Negra", duracion: 100, tipo: "Teatro", descripcion: "Comedia de Moliere en clave moderna.", fechas: ["2026-10-01"], esGratuito: false },
+    { id: 9, nombre: "Escultura Contemporanea", lugar: "Museo Regional", duracion: 0, tipo: "Exposicion", descripcion: "Obras en metal y madera de la escena nacional.", fechas: ["2026-09-22", "2026-10-05"], esGratuito: false },
+    { id: 10, nombre: "Musica de Camara", lugar: "Conservatorio", duracion: 80, tipo: "Concierto", descripcion: "Trio de cuerdas interpreta repertorio romantico.", fechas: ["2026-09-23"], esGratuito: true },
+    { id: 11, nombre: "Improvisacion Teatral", lugar: "Cafe Cultural", duracion: 60, tipo: "Teatro", descripcion: "Espectaculo de improvisacion con participacion del publico.", fechas: ["2026-09-30"], esGratuito: true },
+    { id: 12, nombre: "Arte Digital", lugar: "Galeria Centro", duracion: 0, tipo: "Exposicion", descripcion: "Instalaciones interactivas creadas con tecnologia.", fechas: ["2026-09-21", "2026-10-02"], esGratuito: false }
+  ];
